@@ -61,6 +61,10 @@ xC-package = []
 xE-package = []
 xG-package = []
 
+stm32-serial = [] # ! untested feature
+stm32-spi = [] # ! untested feature
+stm32-tsc = [] # ! untested feature
+
 rt = ["stm32wb-pac/rt"]
 
 default = [ "rt" ]
